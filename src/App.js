@@ -29,7 +29,7 @@ function App() {
     <div className="inpt">
       <input placeholder="Type Text Here" onChange={((e)=>{setText(e.target.value)})}/>
     </div>
-    
+     
     { txt?.length>0?
     <div style={{marginTop:35}}>
     <button onClick={()=>{paliDrom(txt)}}>Click</button>
